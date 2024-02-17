@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
   try {
-    res.send(`<h1>Hey theres</h1>`);
+    res.send(`<h1>Hey there, i'm using docker</h1>`);
   } catch (error) {
     console.error(error.message);
     res.send(`<h1>Uhh ohhh!</h1>`);
